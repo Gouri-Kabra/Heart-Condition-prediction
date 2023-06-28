@@ -27,7 +27,7 @@ def user_input_features():
     MaxHR = st.sidebar.number_input('Maximum heart rate achieved: ')
     ExerciseAngina = st.sidebar.selectbox('Exercise induced angina: ',('Y', 'N'))
     Oldpeak = st.sidebar.number_input('oldpeak ')
-    ST_Slope = st.sidebar.selectbox('The slope of the peak exercise ST segmen: ', ('Up','Flat', 'Down'))
+    ST_Slope = st.sidebar.selectbox('The slope of the peak exercise ST segment: ', ('Up','Flat', 'Down'))
     
 
     data = {'Age': Age,
