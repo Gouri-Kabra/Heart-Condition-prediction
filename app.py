@@ -77,4 +77,9 @@ elif prediction == 1:
     st.write('Your Heart is Unhealthy :( ')    
 
 st.subheader('Prediction Probability')
+st.write("""
+
+Here, 0 signifies probability of healthy heart and 1 signifies probability of unhealthy heart
+
+""")
 st.write(prediction_proba)
